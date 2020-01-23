@@ -302,7 +302,7 @@ def test_sort():
         else:
             print("Testing complete. The insertion_sort function failed!")
     else:
-        print("The initial list, by some miracle, was not sorted. Run it again!")
+        print("The initial list, by some miracle, was already sorted. Run it again!")
     print("Testing the bubble_sort function...")
     test_list = Llist()
     for i in range(200):
@@ -315,7 +315,7 @@ def test_sort():
         else:
             print("Testing complete. The bubble_sort function failed!")
     else:
-        print("The initial list, by some miracle, was not sorted. Run it again!")
+        print("The initial list, by some miracle, was already sorted. Run it again!")
 
 if __name__ == '__main__':
     test_sort()
