@@ -222,6 +222,8 @@ let palindrome_v2 l =
 
 let () = assert(test_palindrome palindrome_v2);;  
 
+(* Incomplete from here on out *)
+
 (* Lazy lists *)
 
 type 'a lazy_list =
